@@ -88,6 +88,10 @@
 ### Enemies
 - Generated upon Party arrival
 
+## Engine
+
+- Tick based Game Time
+
 ### Systems
 | Component | Description | Completion |
 |-----------|--------------|-----------|
@@ -97,6 +101,7 @@
 | Enemy Generation | Generated upon Party entering dungeon | **Not Started** |
 | Quest Difficulty | More difficult = More Reward | **Not Started** |
 | Party System | Game Progression element | **Not Started** |
+| Dungeon Exploration | Exploring allows the scouting of areas in order to enable bossfight quests etc. | **Not Started** |
 
 # Overall Progress
 
