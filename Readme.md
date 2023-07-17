@@ -118,9 +118,9 @@
 
 
 # Tasks for v0.1
-| v0.1 | Completed |
-|------|-----------|
-| Player | ✔️ |
-| Characters| ❌ |
-| Dungeons | ❌ |
-| Buildings | ❌ |
+- [x] Player
+- [ ] Characters
+- [ ] Buildings
+- [ ] Map
+- [ ] Dungeons
+- [ ] Enemies
