@@ -9,8 +9,9 @@
 - Day/Night Cycle using ticks
 - Treasury
 
+---
 
-### Characters
+## Characters
 - Level
 - Class
 
@@ -28,22 +29,24 @@
 - Happiness / Morale
 - Family
 - Gender?
-
 #### Inventory
 - Equipment Slots
 - Inventory limit
 
-
-### NPC
+#### NPC
 - Name
 - Gender?
 - House
+
+---
 
 ### Items
 - Type
 - Level Req.
 - Damage / Defence
 - Special Effect
+
+---
 
 ### Buildings
 
@@ -63,6 +66,8 @@
 | Accessory Shop | Adventurer Accessories | Adventurers automatically gather better accessories with earned money |
 | Skill Training | Class Skills | Adventurers automatically buy skills as they hit reqs and have enough money |
 
+---
+
 ### Quests
  - Difficulty 
  - Destination
@@ -78,15 +83,19 @@
  
 
 
- - 
+ ---
 
 
 ### Map
 - Dungeons
 
+---
+
 
 ### Enemies
 - Generated upon Party arrival
+
+---
 
 ## Engine
 
@@ -103,6 +112,8 @@
 | Party System | Game Progression element | **Not Started** |
 | Dungeon Exploration | Exploring allows the scouting of areas in order to enable bossfight quests etc. | **Not Started** |
 
+---
+
 # Overall Progress
 
 | Component | Completion |
@@ -116,6 +127,7 @@
 | Enemies | **Not Started** |
 | Buildings | **Not Started** |
 
+---
 
 # Tasks for v0.1
 - [x] Player
