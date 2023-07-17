@@ -19,8 +19,7 @@ void Engine::Update()
 	while (Running)
 	{
 		AccumulateTime();
-		std::getchar();
-		std::cout << Diceroll() << std::endl;
+		 
 	}
 }
 

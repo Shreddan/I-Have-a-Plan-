@@ -18,6 +18,17 @@ public:
 		Other
 	};
 
+	enum Chara
+	{
+		Citizien,
+		Vagrant,
+		Warrior,
+		Priest,
+		Thief,
+		Mage,
+		Ranger
+	};
+
 	void GenerateName();
 	void Levelup();
 
