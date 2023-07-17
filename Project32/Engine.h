@@ -13,6 +13,8 @@ public:
 	void Update();
 	void AccumulateTime();
 
+	int Diceroll();
+
 	float fTime;
 	float lElapsed;
 

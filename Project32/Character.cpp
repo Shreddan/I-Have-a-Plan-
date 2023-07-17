@@ -8,7 +8,7 @@ Character::Character()
 	this->BaseDamage = 1;
 	this->BaseDefence = 1;
 	this->Class = 0;
-
+	this->Gender = GenderAssign();
 	
 }
 
@@ -30,4 +30,13 @@ void Character::GenerateName()
 
 void Character::Levelup()
 {
+}
+
+int Character::GenderAssign()
+{
+	std::random_device rd;
+	std::mt19937_64 mt(rd());
+	std::uniform_int_distribution<int> uid{ 0, 2 };
+
+	return uid(mt);
 }

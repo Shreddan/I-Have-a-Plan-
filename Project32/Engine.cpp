@@ -19,7 +19,8 @@ void Engine::Update()
 	while (Running)
 	{
 		AccumulateTime();
-		
+		std::getchar();
+		std::cout << Diceroll() << std::endl;
 	}
 }
 
@@ -31,4 +32,15 @@ void Engine::AccumulateTime()
 
 	this->fTime = elapsedTime.count();
 	lElapsed = fTime;
+}
+
+int Engine::Diceroll()
+{
+	std::random_device rd;
+	std::seed_seq sds{ rd(), rd(), rd(), rd(), rd(), rd(), rd(), rd() };
+	std::mt19937_64 mt{ sds };
+
+	std::uniform_int_distribution<int> uid{ 0, 20 };
+
+	return uid(mt);
 }
