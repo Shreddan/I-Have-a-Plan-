@@ -4,7 +4,8 @@ Engine::Engine()
 {
 	this->tp1 = std::chrono::system_clock::now();
 	this->tp2 = std::chrono::system_clock::now();
-
+	this->fTime = 0.f;
+	this->lElapsed = 0.f;
 	
 }
 
