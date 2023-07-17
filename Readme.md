@@ -1,4 +1,4 @@
-# Classes
+﻿# Classes
 
 ### Player
 - Kingdom Level
@@ -115,3 +115,12 @@
 | Dungeons | **Not Started** |
 | Enemies | **Not Started** |
 | Buildings | **Not Started** |
+
+
+# Tasks for v0.1
+| v0.1 | Completed |
+|------|-----------|
+| Player | ✔️ |
+| Characters| ❌ |
+| Dungeons | ❌ |
+| Buildings | ❌ |
