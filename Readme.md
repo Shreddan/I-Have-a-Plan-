@@ -1,4 +1,15 @@
-﻿# Classes
+﻿# Tasks for v0.1
+- [x] Player
+- [ ] Characters
+- [ ] Buildings
+- [ ] Map
+- [ ] Dungeons
+- [ ] Enemies
+
+---
+---
+
+# Classes
 
 ### Player
 - Kingdom Level
@@ -126,13 +137,3 @@
 | Dungeons | **Not Started** |
 | Enemies | **Not Started** |
 | Buildings | **Not Started** |
-
----
-
-# Tasks for v0.1
-- [x] Player
-- [ ] Characters
-- [ ] Buildings
-- [ ] Map
-- [ ] Dungeons
-- [ ] Enemies

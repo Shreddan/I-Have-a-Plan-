@@ -3,7 +3,7 @@
 Character::Character()
 {
 	this->Name = "";
-	this->Level = 1;
+	this->ClassLevel = 1;
 	this->Exp = 0;
 	this->BaseDamage = 1;
 	this->BaseDefence = 1;
@@ -12,10 +12,11 @@ Character::Character()
 	
 }
 
-Character::Character(std::string name, int lvl)
+Character::Character(std::string name, int lvl, int Class)
 {
 	this->Name = name;
-	this->Level = lvl;
+	this->ClassLevel = lvl;
+	this->Class = Class;
 }
 
 Character::~Character()

@@ -7,7 +7,7 @@ class Character
 {
 public:
 	Character();
-	Character(std::string name, int lvl);
+	Character(std::string name, int lvl, int Class);
 	~Character();
 
 	void GenerateName();
@@ -15,11 +15,13 @@ public:
 
 
 	std::string Name;
-	int Level;
+	int ClassLevel;
 	int Exp;
 	int BaseDamage;
 	int BaseDefence;
 	int Class;
 	
+
+
 };
 
